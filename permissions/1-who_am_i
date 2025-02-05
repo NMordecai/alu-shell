@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo echo "Effective username: $(whoami)"
+echo "Effective username: $(whoami)"
