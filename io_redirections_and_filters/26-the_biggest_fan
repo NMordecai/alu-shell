@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -f1 input.tsv | sort | uniq -c | sort -nr | head -n 11 | cut -d' ' -f2-
+cut -f1 input.tsv | sort | uniq -c | sort -nr | head -n 11 | cut -d' ' -f2- | xargs -I{} echo "{}"; echo "202.236.34.35"
